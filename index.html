@@ -5,35 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Shrimp Quiz</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Shrimp Test</title>
 </head>
-
 <body class="bg-gradient-to-r from-cyan-500 to-blue-500 flex justify-center items-center h-screen m-0">
-  <main class="rounded-xl bg-white w-1/2" id="Quiz">
-      <div class="text-end items-start m-4" id="Timer">Timer: <span id="timer">#</span></div>
-      <h1 class="text-black text-xl text-bold text-center m-0 p-4 underline" id="Question">Question Text</h1>
+  <div class="rounded-xl bg-white w-1/2" id="quiz">
+    <div class="quiz-header">
+      <div class="flex m-4 justify-between" id="Timer">
+        <h1 class="text-end">Timer: <span class="text-rose-900" id="timer">00:00</span></h1>
+        <h1 class="text-start">Score: <span id="score"></span></h1>
+      </div>
+      <h2 class="text-black text-xl text-bold text-center m-0 p-4 underline" id="question">Question Text</h2>
       <ul class="ml-6">
         <li class="text-xl my-3.5">
-          <input type="radio" name="answer" id="text-a">
-          <label class="cursor-pointer hover:underline hover:text-2xl" for="text-a" id="answer-a">answer</label>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label class="cursor-pointer hover:underline hover:text-2xl" for="a" id="a_text">Answer</label>
         </li>
         <li class="text-xl my-3.5">
-          <input type="radio" name="answer" id="text-b">
-          <label class="cursor-pointer hover:underline hover:text-2xl" for="text-b" id="answer-b">answer</label>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label class="cursor-pointer hover:underline hover:text-2xl" for="b" id="b_text">Answer</label>
         </li>
         <li class="text-xl my-3.5">
-          <input type="radio" name="answer" id="text-c">
-          <label class="cursor-pointer hover:underline hover:text-2xl" for="text-c" id="answer-c">answer</label>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label class="cursor-pointer hover:underline hover:text-2xl" for="c" id="c_text">Answer</label>
         </li>
         <li class="text-xl my-3.5">
-          <input type="radio" name="answer" id="text-d">
-          <label class="cursor-pointer hover:underline hover:text-2xl" for="text-d" id="answer-d">answer</label>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label class="cursor-pointer hover:underline hover:text-2xl" for="d" id="d_text">Answer</label>
         </li>
       </ul>
     </div>
-    <button class="text-center w-full bg-sky-400 hover:bg-rose-400 h-20 rounded-b-xl text-3xl cursor-pointer focus:bg-green-500" id="submit">submit</button>
-  </main>
-  
+    <button class="text-center w-full bg-sky-400 hover:bg-rose-400 h-20 rounded-b-xl text-3xl cursor-pointer focus:bg-green-500" id="submit">Submit</button>
+  </div>
 </body>
+<script src="java/script.js"></script>
 </html>
