@@ -19,6 +19,7 @@ Going to github and looking for the repository for luisMtz-0/ShrimpQuiz
 To use ShrimpQuiz all that is needed is to load the link provided above towards the deployment site. Once in the page the timer will begin to count down until it runs out of time once it does it will display that the time is over and give your score. Every time a question is answer correctly time is added to timer. If you manage to answer all the question before the time runs out it will ask for you name. 
 -  once you finish the test Reload the website to be able to access the leader board. 
 
+[ShrimpQuizVid.webm](https://user-images.githubusercontent.com/118570822/232247909-392fd0c7-d95b-4cd5-bb94-c28652900b05.webm)
 
 
 ## License 
