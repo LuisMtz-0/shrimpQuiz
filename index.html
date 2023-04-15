@@ -8,13 +8,17 @@
   <!-- <link rel="stylesheet" href="style.css"> -->
   <title>Shrimp Test</title>
 </head>
+<button class="absolute top-10 right-10 bg-black text-white h-fit text-2xl w-48 rounded-xl" id="leaderBtn">LeaderBoard</button>
 <body class="bg-gradient-to-r from-cyan-500 to-blue-500 flex justify-center items-center h-screen m-0">
+  
   <div class="rounded-xl bg-white w-1/2" id="quiz">
     <div class="quiz-header">
       <div class="flex m-4 justify-between" id="Timer">
+        <!-- placeholder for timer that will be linked the js file to  -->
         <h1 class="text-end">Timer: <span class="text-rose-900" id="timer">00:00</span></h1>
         <h1 class="text-start">Score: <span id="score"></span></h1>
       </div>
+      <!-- This is the placeholder for all the question that will be added through js innertext syntax with its respective id -->
       <h2 class="text-black text-xl text-bold text-center m-0 p-4 underline" id="question">Question Text</h2>
       <ul class="ml-6">
         <li class="text-xl my-3.5">
