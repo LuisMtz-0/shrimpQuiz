@@ -9,12 +9,21 @@
 </head>
 <body class="bg-gradient-to-r from-cyan-500 to-blue-500 flex justify-center items-center h-screen m-0">
   <div class="bg-gray-600 rounded-xl w-1/2">
-    <header class="bg-gray-900 text-white text-center text-xl h-10">LeaderBoard</header>
-    <ol class="list-decimal ml-6">
-      <li>Player 1</li>
-    </ol>
+    <header class="bg-slate-900 text-white text-center text-xl h-10">LeaderBoard</header>
+    <div id="containerEl" class=" ">
+      <div class="bg-slate-900 text-l text-red-400 flex justify-between border-2 border-sky-900 rounded-xl m-1 h-12">
+        <div class="ml-4" id="player">Player Name</div>
+        <div class="mr-4" id="playerScore">score <span id="points"></span></div>
+      </div>
+
+      <div class="bg-slate-900 text-l text-red-400 flex justify-between border-2 border-sky-900 rounded-xl m-1 h-12">
+        <div class="ml-4" id="player">Player Name</div>
+        <div class="mr-4" id="playerScore">score <span id="p1">0</span></div>
+      </div>
+
     <button class="text-center w-full bg-sky-400 hover:bg-rose-400 h-10 rounded-b-xl text-3xl cursor-pointer focus:bg-green-500" onclick="window.location.href='index.html';">Test</button>
 
   </div>
   </body>
+  <script src="java/script.js"></script> 
 </html>
